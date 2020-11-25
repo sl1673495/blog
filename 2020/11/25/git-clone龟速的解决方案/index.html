@@ -158,7 +158,7 @@
     <span class="title" id="toc-switch"><span>文章导航</span></span>
     <div class="toc-inner syuanpi back-1" style="display:none;">
       <li class="title-link"><a href="javascript:;" class="toTop">git clone龟速的解决方案</a></li>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#更新"><span class="toc-text">更新</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2020-11-25"><span class="toc-text">[2020-11-25]</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#工具要求"><span class="toc-text">工具要求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#步骤一-查看-VPN-端口号"><span class="toc-text">步骤一: 查看 VPN 端口号</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#更新"><span class="toc-text">更新</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2020-11-25"><span class="toc-text">[2020-11-25]</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#工具要求"><span class="toc-text">工具要求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#步骤一-查看-VPN-端口号"><span class="toc-text">步骤一: 查看 VPN 端口号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#步骤二-配置全局-git"><span class="toc-text">步骤二: 配置全局 git</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#步骤三-Clash-开启-Rule-Pac-模式"><span class="toc-text">步骤三: Clash 开启 Rule(Pac) 模式</span></a></li></ol>
     </div>
   </aside>
 
@@ -283,9 +283,10 @@
 <li>clash for windows</li>
 <li>稳定的 VPN 服务</li>
 </ul>
-<h2 id="步骤一-查看-VPN-端口号"><a href="#步骤一-查看-VPN-端口号" class="headerlink" title="步骤一: 查看 VPN 端口号"></a>步骤一: 查看 VPN 端口号</h2><p><img src="git-clone%E9%BE%9F%E9%80%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/images/1.png" alt="VPN 端口号查询图例"></p>
-<p>##</p>
+<h2 id="步骤一-查看-VPN-端口号"><a href="#步骤一-查看-VPN-端口号" class="headerlink" title="步骤一: 查看 VPN 端口号"></a>步骤一: 查看 VPN 端口号</h2><p><img src="https://oos.blog.yyge.top/2020/11/25/git%20clone%E9%BE%9F%E9%80%9F%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/images/1.png?imageView2/0/q/75%7Cwatermark/2/text/6Ziz5ZOl5bCP56uZ/font/5b6u6L2v6ZuF6buR/fontsize/440/fill/IzE4OTBGRg==/dissolve/100/gravity/SouthEast/dx/10/dy/10%7Cimageslim" alt="VPN 端口号查询图例"></p>
+<h2 id="步骤二-配置全局-git"><a href="#步骤二-配置全局-git" class="headerlink" title="步骤二: 配置全局 git"></a>步骤二: 配置全局 git</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br><span class="line">git config --global https.proxy https://127.0.0.1:7890</span><br></pre></td></tr></table></figure>
 
+<h2 id="步骤三-Clash-开启-Rule-Pac-模式"><a href="#步骤三-Clash-开启-Rule-Pac-模式" class="headerlink" title="步骤三: Clash 开启 Rule(Pac) 模式"></a>步骤三: Clash 开启 Rule(Pac) 模式</h2>
       
     
     </div>
