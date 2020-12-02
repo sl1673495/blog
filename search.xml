@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>yarn add 报错: An unexpected error occurred: &#39;EPERM: operation not permitted...&#39;</title>
+      <link href="/blog/2020/12/01/yarn-add-%E6%8A%A5%E9%94%99-An-unexpected-error-occurred-EPERM-operation-not-permitted/"/>
+      <url>/blog/2020/12/01/yarn-add-%E6%8A%A5%E9%94%99-An-unexpected-error-occurred-EPERM-operation-not-permitted/</url>
+      
+        <content type="html"><![CDATA[<p><code>yarn add</code> 依赖的时候报错：<code>&quot;An unexpected error occurred: EPERM: operation not permitted&quot;</code></p><a id="more"></a><h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><hr><h3 id="2020-12-1"><a href="#2020-12-1" class="headerlink" title="[2020-12-1]"></a>[2020-12-1]</h3><ul><li>Initial release</li></ul><h3 id="2020-12-2"><a href="#2020-12-2" class="headerlink" title="[2020-12-2]"></a>[2020-12-2]</h3><ul><li>构建主体</li></ul><h2 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h2><hr><p>在 Vue 项目中使用 <code>npm install xlsx</code> 和 <code>yarn add xlsx</code> 的时候报错:</p><blockquote><p>An unexpected error occurred: EPERM: operation not permitted</p></blockquote><p>搜索了几个解决方案, 都不奏效:</p><ol><li>权限不足, 以管理员权限运行 CMD(×)</li><li>项目处于运行状态, <kbd>Ctrl + C</kbd> 终止掉进程(×)</li><li>清理缓存, <code>npm | yarn cache clean</code>(×)</li></ol><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><hr><h3 id="1-安装-Python"><a href="#1-安装-Python" class="headerlink" title="1. 安装 Python"></a>1. 安装 Python</h3><p>在错误信息中看到了有 <code>Python</code> 这个字样, 猜想有可能是未安装 <code>Python</code> 导致的, 去官网下载安装即可.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> frontend </category>
+          
+          <category> freebie </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> yarn </tag>
+            
+            <tag> npm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于 React 的一些疑点思考</title>
       <link href="/blog/2020/11/30/%E5%85%B3%E4%BA%8E-React-%E7%9A%84%E4%B8%80%E4%BA%9B%E7%96%91%E7%82%B9%E6%80%9D%E8%80%83/"/>
       <url>/blog/2020/11/30/%E5%85%B3%E4%BA%8E-React-%E7%9A%84%E4%B8%80%E4%BA%9B%E7%96%91%E7%82%B9%E6%80%9D%E8%80%83/</url>
@@ -111,13 +142,13 @@
       
         <tags>
             
+            <tag> js </tag>
+            
             <tag> http </tag>
             
             <tag> dns </tag>
             
             <tag> cdn </tag>
-            
-            <tag> js </tag>
             
             <tag> html </tag>
             
@@ -4237,9 +4268,9 @@
             
             <tag> http </tag>
             
-            <tag> domain </tag>
-            
             <tag> url </tag>
+            
+            <tag> domain </tag>
             
         </tags>
       
